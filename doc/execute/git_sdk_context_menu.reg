@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Shell\git_sdk_Shell]
+@="Open Git Bash(SDK)"
+"Icon"="C:\\Applications\\git-sdk-64\\git-bash.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\git_sdk_Shell\command]
+@="\"C:\\Applications\\git-sdk-64\\git-bash.exe\" \"--cd=%v.\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\git_sdk_Shell]
+@="Open Git Bash(SDK)"
+"Icon"="C:\\Applications\\git-sdk-64\\git-bash.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\git_sdk_Shell\command]
+@="\"C:\\Applications\\git-sdk-64\\git-bash.exe\" \"--cd=%v.\""
